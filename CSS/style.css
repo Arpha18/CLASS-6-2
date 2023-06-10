@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #f0f0f0;
+    display: grid;
+    place-items: center;
+}
+
+
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+}
+a{
+    background-color: #f9f9f9;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;
+    transition: 0.7s;
+    border-bottom: 5px solid transparent;
+}
+a:hover{
+    background-color: 	#00FFFF;
+    border-bottom: 5px solid #000000;
+}
+#banner{
+    height: 900px;
+    background-image: url(https://neurosciencenews.com/files/2023/02/robot-learning-kids-neurosicence.jpg);
+    background-size: cover;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+h2{
+    font-size: 35px;
+    text-align: center;
+}
